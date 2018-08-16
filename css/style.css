@@ -1,0 +1,118 @@
+/* GERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'lato', Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*NAVEGAÇÃO */
+
+.topbar {
+    top: 0;
+    background:white;
+    position: fixed;
+    width: 100%;
+    padding: 30px 95px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .15);
+    z-index: 999;
+
+}
+
+.menu{
+    display: inline;
+    margin-left: 660px;
+
+}
+
+.menu_item {
+    display: inherit;
+    list-style: none;
+    margin-right: 25px;
+    color: gray;
+ 
+}
+
+.menu_item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+
+/* HEADER */
+
+.header_roxo {
+    text-transform: uppercase;
+    color: #9013FE;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: center;
+    padding: 100px;
+}
+
+/*DESCRIÇÃO DA AUTORA*/
+
+.author {
+    text-align: center;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    vertical-align: top;
+    height: 470px;
+    margin: -50px 0 20px 0;
+}
+
+h5 {
+    margin-top: 10px;
+}
+
+/* ARTIGO */
+
+article {
+    margin-left: 30px;
+    margin-top: -50px;
+}
+
+article > h1 {
+    font-size: 36px;
+    color: #4A4A4A;
+    margin: 0;
+}
+
+article > p {
+    font-size: 24px;
+    color: #4A4A4A;
+}
+
+/* LAYOUT */
+
+.col-1-de-3 {
+    display: inline-block;
+    width: 30%;
+}
+
+.col-2-de-3 {
+    display: inline-block;
+    width: 65%;
+
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+
+.footer_roxo {
+    margin: 0;
+    padding: 10px 0;
+    background: #9013FE;
+    text-align: center;
+    color: white;
+}
+
+
